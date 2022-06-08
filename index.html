@@ -1,41 +1,29 @@
 <head>
     <title>My Portfolio</title>
-    
+    <link rel = 'stylesheet' href = style.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
  <body>
      <img id = "img" src = https://lh3.googleusercontent.com/a-/AOh14GiVFK6lIJbEtO7cgQ_vWkJmBrkrCGQLVnM44fdI=s288-p-rw-no width = 
      200px >
 
      <h2>Gevorg Babayan</h2>
 
-<div id = 'div1'> Birth Date</div>
- 
- <div id = 'div2'>22.12.1997</div>
-<div id = 'div1'>Place of Birth</div>   
-<div id = 'div2'>Armenia, Kotayk, Nor Hachn</div>
-<div id = 'div1'>Education</div>
-<div id = 'div2'>Faculty of Radiophysics , Yerevan State University  </div>
-<div id = 'div1'>Experience</div>
-<div id = 'div2'>Risk Manager, SoftConstruct</div>
-    
+<button onclick="myDate()" class = 'but'> Birth Date</button><br>
+ <div class = 'div2' id = 'date1' style="display: none;">22.12.1997</div><br>
 
+ <button onclick = 'myPlace()' class = 'but'>Place of Birth</button><br>
+<div class = 'div2' id = 'place1' style="display: none;">Armenia, Kotayk, Nor Hachn</div><br>
+
+<button onclick = 'myEdu()' class = 'but'>Education</button> <br>
+<div class = 'div2' id = 'edu1' style="display: none;">Faculty of Radiophysics , Yerevan State University  </div><br>
+
+<button onclick = 'myExp()' class = 'but'> Experience</button> <br>
+<div class = 'div2' id = 'exp1' style="display: none;">Risk Manager, SoftConstruct</div><br>
+    
+<script src ="main.js"></script>
 </body>
 
-<style>
-    #div1 {
-        height: 30px;
-        font-size: 20px;
-          color:rgb(56, 56, 48)      
-    }
 
-    #div2 {
-       height: 40px;
-       font-size: 30px;
-       font-style: italic;
-
-
-    }
-
-</style>
 
 
 </head>

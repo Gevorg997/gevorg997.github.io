@@ -5,7 +5,8 @@ body {
 #div1 {
     height: 30px;
     font-size: 20px;
-      color:rgb(45, 57, 233)      
+      color:rgb(45, 57, 233) ;
+      display: inline-block;     
 }
 
 .div2 {
@@ -26,4 +27,16 @@ body {
         display: inline-block;
         font-size: 16px;
       
+}
+
+#aTag {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    color:rgb(133, 122, 255)  ;
+    background-color: #454945;
+    padding: 15px 32px;
+    border: none;
+    text-align: center;
+    
 }

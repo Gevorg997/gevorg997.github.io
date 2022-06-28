@@ -1,0 +1,35 @@
+div {
+    background-color: rgb(176, 248, 248);
+    width: 300px;
+    border-width: 300px;
+    border: 10px;
+    height: 150;
+}
+
+body {
+    background-color: rgb(25, 79, 79)
+}
+
+.butt {
+    height: 24px;
+    margin-left: 20px;
+    padding: 5px;
+    display: flex;
+    
+}
+
+.hidden {
+    text-decoration: line-through;
+}
+
+.doo {
+    padding: 6px;
+    border:solid;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#input {
+    width: 260px;
+}

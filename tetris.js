@@ -6,6 +6,7 @@ const yCount = 10;
 let counter = 0
 let isRotatable = true
 let landingFigure
+let score = 0
 const reachedRow = {
     0: ['15'],
     1: ['15'],
@@ -146,6 +147,8 @@ function moveDown() {
                     let rowCount = 0
                     for(let w of winningRow){
                         winner(+w + rowCount + '' )
+                        score = score + 10
+                        document.getElementById("score").innerHTML = score 
                         rowCount++
                     }
                    

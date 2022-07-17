@@ -68,7 +68,19 @@ const tTet = [
     [0,0,0]
 ]
 
-const figure = [iTet,lTet,zTet,oTet,tTet]
+const LTet = [
+    [1,1,1],
+    [1,0,0],
+    [0,0,0]
+]
+
+const ZTet = [
+    [0,1,0],
+    [1,1,0],
+    [1,0,0]
+]
+
+const figure = [iTet,lTet,zTet,oTet,tTet,LTet,ZTet]
 
 let rand = Math.floor(5 * Math.random()) 
 let currentFigure = figure[rand]

@@ -82,7 +82,7 @@ const ZTet = [
 
 const figure = [iTet,lTet,zTet,oTet,tTet,LTet,ZTet]
 
-let rand = Math.floor(5 * Math.random()) 
+let rand = Math.floor(7 * Math.random()) 
 let currentFigure = figure[rand]
 
 function drawBoard() {
@@ -150,7 +150,7 @@ function moveDown() {
                     }
                    
                   }
-                rand = Math.floor(5 * Math.random()) 
+                rand = Math.floor(7 * Math.random()) 
                 currentFigure = figure[rand]
                 drawFigure(currentFigure)
               }
